@@ -95,7 +95,7 @@ const CourseDetails = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Online Classes</p>
-                    <p className="text-sm text-muted-foreground">Live interactive sessions via Zoom</p>
+                    <p className="text-sm text-muted-foreground">Live interactive sessions via Google Meet</p>
                   </div>
                 </div>
               </div>

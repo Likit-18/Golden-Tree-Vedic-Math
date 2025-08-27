@@ -52,7 +52,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold text-foreground">Class Timings</p>
                   <p className="text-muted-foreground">Morning: 7 AM - 9 AM</p>
-                  <p className="text-muted-foreground">Evening: 4 PM - 7 PM</p>
+                  <p className="text-muted-foreground">Evening: 4 PM - 9 PM</p>
                 </div>
               </div>
             </div>

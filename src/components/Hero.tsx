@@ -34,13 +34,21 @@ const Hero = () => {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="min-w-[200px]">
-            Enroll Today - Limited Seats
-          </Button>
-          <Button variant="outline" size="lg" className="min-w-[200px] group">
+          <a 
+            href="https://wa.me/919581201019" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button variant="hero" size="lg" className="min-w-[200px]">
+              Enroll Today - Limited Seats
+            </Button>
+          </a>
+          <a href="tel:+919581201019">
+            <Button variant="outline" size="lg" className="min-w-[200px] group">
             <Phone className="w-4 h-4 group-hover:animate-pulse" />
-            Call +91 9581201019
-          </Button>
+              Call +91 9581201019
+            </Button>
+          </a>
         </div>
         
         {/* Location preview */}
