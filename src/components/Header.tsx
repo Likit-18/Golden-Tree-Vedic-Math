@@ -45,9 +45,9 @@ const Header = () => {
               Course Details
             </button>
             <Button variant="default" size="sm" asChild>
-              <a href="tel:9581201109">
+              <a href="tel:+919581201019">
                 <Phone className="w-4 h-4" />
-                9581201109
+                +91 9581201019
               </a>
             </Button>
           </nav>

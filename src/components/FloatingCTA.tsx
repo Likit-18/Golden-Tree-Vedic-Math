@@ -20,9 +20,9 @@ const FloatingCTA = () => {
   return (
     <div className="fixed bottom-4 left-4 right-4 z-50 md:hidden">
       <Button variant="hero" size="lg" className="w-full shadow-glow" asChild>
-        <a href="tel:9581201109">
+        <a href="tel:+91 9581201019">
           <Phone className="w-5 h-5 animate-pulse" />
-          Call Now - 9581201109
+          Call Now - 9581201019
         </a>
       </Button>
     </div>

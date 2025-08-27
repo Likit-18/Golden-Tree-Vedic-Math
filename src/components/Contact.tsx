@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Call Us</p>
-                  <p className="text-primary text-lg group-hover:underline">9581201109</p>
+                  <p className="text-primary text-lg group-hover:underline">+91 9581201019</p>
                   <p className="text-sm text-muted-foreground">Mon-Sat, 9 AM - 7 PM</p>
                 </div>
               </a>
@@ -40,7 +40,7 @@ const Contact = () => {
                   <p className="text-sm text-muted-foreground">
                     Vinayakanagar, D. No: MIG 24-66-16,<br />
                     Near Union Bank, Peddagantayada,<br />
-                    Visakhapatnam, Andhra Pradesh - 530024
+                    Visakhapatnam, Andhra Pradesh - 530044
                   </p>
                 </div>
               </div>
@@ -71,9 +71,9 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <Button variant="hero" size="lg" className="w-full" asChild>
-                  <a href="tel:9581201109">
+                  <a href="tel:+91 9581201019">
                     <Phone className="w-5 h-5" />
-                    Call 9581201109 to Enroll
+                    Call +91 9581201019 to Enroll
                   </a>
                 </Button>
                 
@@ -86,14 +86,20 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <Button variant="outline" size="lg" className="w-full">
-                  <Mail className="w-5 h-5" />
-                  Inquire About Online Classes
-                </Button>
+                <a 
+                  href="https://wa.me/919581201019" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" size="lg" className="w-full">
+                    <Mail className="w-5 h-5" />
+                    Inquire About Online Classes
+                  </Button>
+                </a>
               </div>
               
               <div className="bg-accent/10 rounded-xl p-4">
-                <p className="text-sm font-medium text-accent-foreground">
+                <p className="text-sm font-medium text-sidebar-accent-foreground">
                   🎯 Special Offer: Get 10% off on early bird registrations!
                 </p>
               </div>

@@ -50,12 +50,16 @@ const Instructor = () => {
               <div className="aspect-square max-w-sm mx-auto bg-gradient-accent rounded-3xl opacity-20 absolute inset-0 blur-3xl" />
               <div className="relative bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl p-8 backdrop-blur-sm border border-border/50">
                 <div className="text-center space-y-4">
-                  <div className="w-32 h-32 bg-gradient-hero rounded-full mx-auto flex items-center justify-center text-primary-foreground text-4xl font-bold">
-                    MC
+                  <div className="flex justify-center items-center gap-2">
+                    <img
+                      src="/Chandrakala.png"
+                      alt="Golden Tree Vedic Math Logo"
+                      className="w-64 h-64 rounded-full object-cover"
+                    />
                   </div>
                   <div className="space-y-2">
                     <h2 className="text-3xl md:text-4xl font-bold text-background">
-                      <span className="bg-clip-text text-primary-foreground">M. Chandrakala</span>
+                      <span className="bg-clip-text text-black">M. Chandrakala</span>
                     </h2>
                   </div>
                 </div>
