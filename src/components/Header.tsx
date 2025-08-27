@@ -16,9 +16,11 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-hero rounded-full flex items-center justify-center text-primary-foreground font-bold text-lg">
-              V
-            </div>
+            <img
+              src="/NewLogo.png"
+              alt="Golden Tree Vedic Math Logo"
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <span className="font-bold text-lg text-foreground">Vedic Math</span>
           </div>
           

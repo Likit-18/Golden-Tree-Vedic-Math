@@ -14,9 +14,6 @@ const Instructor = () => {
               </div>
               
               <div className="space-y-4">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  M. Chandrakala
-                </h2>
                 <p className="text-xl text-transparent bg-clip-text bg-gradient-accent font-semibold">
                   Certified Vedic Maths Trainer
                 </p>
@@ -38,13 +35,13 @@ const Instructor = () => {
                   <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center text-primary-foreground mx-auto">
                     <Users className="w-6 h-6" />
                   </div>
-                  <p className="text-sm font-medium text-foreground">500+ Students</p>
+                  <p className="text-sm font-medium text-foreground">50+ Students</p>
                 </div>
                 <div className="text-center space-y-2">
                   <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center text-primary-foreground mx-auto">
                     <BookOpen className="w-6 h-6" />
                   </div>
-                  <p className="text-sm font-medium text-foreground">10+ Years</p>
+                  <p className="text-sm font-medium text-foreground">5+ Years</p>
                 </div>
               </div>
             </div>
@@ -57,9 +54,9 @@ const Instructor = () => {
                     MC
                   </div>
                   <div className="space-y-2">
-                    <p className="text-sm text-muted-foreground">Teaching Location</p>
-                    <p className="font-semibold text-foreground">My Chhota School</p>
-                    <p className="text-sm text-muted-foreground">Near Union Bank, Visakhapatnam</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-background">
+                      <span className="bg-clip-text text-primary-foreground">M. Chandrakala</span>
+                    </h2>
                   </div>
                 </div>
               </div>

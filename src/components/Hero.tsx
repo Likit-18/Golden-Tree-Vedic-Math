@@ -13,7 +13,7 @@ const Hero = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 backdrop-blur-sm rounded-full text-primary font-medium text-sm">
           <Sparkles className="w-4 h-4" />
-          <span>India's Best Math Course For Kids</span>
+          <span>Vizag's Best Vedic Math Course For Kids</span>
         </div>
         
         {/* Main heading */}
