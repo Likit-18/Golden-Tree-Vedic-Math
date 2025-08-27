@@ -35,7 +35,7 @@ const Instructor = () => {
                   <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center text-primary-foreground mx-auto">
                     <Users className="w-6 h-6" />
                   </div>
-                  <p className="text-sm font-medium text-foreground">50+ Students</p>
+                  <p className="text-sm font-medium text-foreground">1500+ Students</p>
                 </div>
                 <div className="text-center space-y-2">
                   <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center text-primary-foreground mx-auto">
