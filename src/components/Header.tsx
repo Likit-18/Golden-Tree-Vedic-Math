@@ -17,7 +17,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <img
-              src="/NewLogo.png"
+              src="/Logo.png"
               alt="Golden Tree Vedic Math Logo"
               className="w-10 h-10 rounded-full object-cover"
             />
